@@ -8,11 +8,12 @@ export default function ReviewDetails({ navigation }) {
     const pressHandler = () =>{
         navigation.goBack();
     }
+    //guardamos el valor rating que viene desde el home
     const rating = navigation.getParam('rating');
     return (
         <View style={globalStyles.container}>
             <Text>Details Screen</Text>
-            <Card>
+            <Card>                
                 <Text>{navigation.getParam('title')}</Text>
                 <Text>{navigation.getParam('body')}</Text>
                 <Text>{navigation.getParam('rating')}</Text>
