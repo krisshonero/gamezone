@@ -9,3 +9,7 @@
 then you have to run "npm install react-navigation-stack" and "npm install react-navigation-drawer"
 
 - adding a left menu with icon and navigation routes
+
+- use of Formik to make easy create the formuler "npm install formik"
+
+- use of yup to validate the form "npm install yup"

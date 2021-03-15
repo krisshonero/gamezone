@@ -4,6 +4,7 @@ import About from '../screens/about'
 import Header from '../shared/header';
 import React from 'react';
 
+//esto es el enrutador para llegar a la pantalla  Screen --> About
 const screens = {
     About:{
         screen: About,

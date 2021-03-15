@@ -5,6 +5,7 @@ import ReviewDetails from '../screens/reviewDetails';
 import Header from '../shared/header';
 import React from 'react';
 
+//esto es el enrutador para llegar a la pantalla  Screen --> Home
 const screens = {
     Home:{
         screen: Home,
